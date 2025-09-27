@@ -6,15 +6,15 @@
 
 int main(void)
 {
-  int height, lenght, width, volume, weight;
+  int height, length, width, volume, weight;
 
   printf("Enter the height of box: ");
   scanf("%d", &height);
-  printf("Enter the lenght of box: ");
-  scanf("%d", &lenght);
+  printf("Enter the length of box: ");
+  scanf("%d", &length);
   printf("Enter the width of box: ");
   scanf("%d", &width);
-  volume = height * lenght * width;
+  volume = height * length * width;
   weight = (volume + INCHES_PER_ROUND - 1) / INCHES_PER_ROUND;
 
   printf("Volume (cubic inches): %d\n", volume);

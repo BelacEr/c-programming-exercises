@@ -3,14 +3,14 @@
 
 int main(void)
 {
-  int height, lenght, width, volume, weight;
+  int height, length, width, volume, weight;
   height = 8;
-  lenght = 12;
+  length = 12;
   width = 10;
-  volume = height * lenght * width; /* volume is now 960. */
+  volume = height * length * width; /* volume is now 960. */
   weight = (volume + 165) / 166;
 
-  printf("Dimensions: %dx%dx%d\n", lenght, width, height);
+  printf("Dimensions: %dx%dx%d\n", length, width, height);
   printf("Volume (cubic inches): %d\n", volume);
   printf("Dimensional weight (pounds): %d\n", weight);
 
