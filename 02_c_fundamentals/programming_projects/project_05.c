@@ -4,11 +4,10 @@
 * 3x⁵ + 2x⁴ - 5x³ - x² + 7x - 6
 *
 * When compiling:
-* gcc project_05.c -o project_05 -lm
+* gcc project_05.c -o project_05
 */
 
 #include <stdio.h>
-#include <math.h>
 
 int main(void)
 {
@@ -17,7 +16,7 @@ int main(void)
   printf("Enter the value of 'x': ");
   scanf("%f", &x);
 
-  result = 3 * pow(x, 5) + 2 * pow(x, 4) - 5 * pow(x, 3) - pow(x, 2) + 7 * x - 6;
+  result = 3 * x * x * x * x * x + 2 * x * x * x * x - 5 *  x * x * x - x * x + 7 * x - 6; 
 
   printf("Polynomial: 3x⁵ + 2x⁴ - 5x³ - x² + 7x - 6\n");
   printf("For x = %.2f, result = %.2f\n", x, result);
