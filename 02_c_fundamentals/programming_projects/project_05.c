@@ -13,12 +13,12 @@ int main(void)
 {
   float x, result;
 
+  printf("Polynomial: 3x⁵ + 2x⁴ - 5x³ - x² + 7x - 6\n");
   printf("Enter the value of 'x': ");
   scanf("%f", &x);
 
   result = 3 * x * x * x * x * x + 2 * x * x * x * x - 5 *  x * x * x - x * x + 7 * x - 6; 
 
-  printf("Polynomial: 3x⁵ + 2x⁴ - 5x³ - x² + 7x - 6\n");
   printf("For x = %.2f, result = %.2f\n", x, result);
 
   return 0;
