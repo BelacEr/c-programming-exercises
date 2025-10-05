@@ -25,7 +25,7 @@ int main(void)
     height_float = 2.3;       // 2.3 inches
 
     area_float = (width_float * height_float);
-    perimeter_float = (2 * width_float) + (2 * height_float);
+    perimeter_float = (2.0 * width_float) + (2.0 * height_float);
 
     printf("Width: %.1f inches. Height: %.1f inches. Area: %.2f sq. in. Perimeter: %.2f inches\n", width_float, height_float, area_float, perimeter_float);
 
