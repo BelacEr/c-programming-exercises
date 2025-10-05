@@ -6,7 +6,7 @@ Enter unit price: 13.5                                  (input)
 Enter purchase date (mm/dd/yyyy): 10/24/2010            (input)
 Item        Unit        Purchase
             Price       Date
-583         $13.50     10/24/2010
+583         $13.50     `10/24/2010
 */
 
 #include <stdio.h>
