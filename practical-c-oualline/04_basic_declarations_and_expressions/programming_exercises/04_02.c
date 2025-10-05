@@ -1,0 +1,13 @@
+/* 
+Exercise 4-2: Write a program to print a block E using asterisks (*), where the E has a height
+of seven characters and a width of five characters.
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("*****\n*\n*\n*****\n*\n*\n*****\n");
+
+    return (0);
+}
